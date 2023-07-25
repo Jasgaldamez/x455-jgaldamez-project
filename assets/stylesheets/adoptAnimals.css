@@ -1,0 +1,55 @@
+.adoptable-hero-image {
+  height: 632px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 208px;
+}
+.animal-profile {
+  width: 314px;
+  height: 248px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
+}
+.container {
+  font-size: 20px;
+  width: 314px;
+}
+.column-1 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.animal-main {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  column-gap: 80px;
+}
+.name {
+  margin: 0;
+  font-weight: bold;
+}
+.card {
+  margin-bottom: 32px;
+}
+.pagination {
+  display: inline-block;
+  text-align: center;
+}
+.pagination-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
