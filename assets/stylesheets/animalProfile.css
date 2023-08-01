@@ -6,7 +6,7 @@
   padding: 64px 200px 56px 83px;
 }
 .main-profile-image {
-  width: 593px;
+  width: 637px;
   height: 528px;
   /* padding-top: 64px; */
   object-fit: cover;
@@ -37,4 +37,23 @@
   object-fit: cover;
   object-position: top;
   border-radius: 10px;
+}
+.adopt-button {
+  width: 206px;
+  height: 56px;
+  border: none;
+  border-radius: 100px;
+  background-color: #00357b;
+  font-size: 24px;
+  color: white;
+  margin-left: 217px;
+}
+h1 {
+  font-weight: 700;
+}
+h2 {
+  font-weight: 700;
+}
+.name {
+  margin-bottom: 8px;
 }
