@@ -14,7 +14,7 @@ document.getElementById("nav").innerHTML = `
             <a href="./adoptAnimals.html">Adopt</a>
             <a href="#about-us">About Us</a>
             <a href="#get-involved">Get Involved</a>
-            <button class="donate-button">Donate</button>
+            <button onclick="location.href='./donate.html';" class="donate-button">Donate</button>
         </div>
     </header>
 `;

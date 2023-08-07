@@ -6,3 +6,157 @@
   background-size: cover;
   padding-bottom: 40px;
 }
+.data {
+  display: flex;
+  justify-content: space-between;
+}
+.data-number {
+  font-size: 64px;
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.data-description {
+  font-size: 36px;
+  font-weight: 300;
+}
+.header {
+  margin-bottom: 0;
+  font-size: 36px;
+  font-weight: 600;
+}
+.content {
+  margin-top: 4px;
+  margin-bottom: 36px;
+}
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 24px;
+  margin-bottom: 4px;
+}
+.contribution-main {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 96px;
+}
+.contribution-profile {
+  border-radius: 10px;
+}
+.donate-container {
+  display: grid;
+  justify-content: center;
+  row-gap: 50px;
+}
+.donate-main {
+  /* padding-left: 76px; */
+  max-width: 1223px;
+}
+.container {
+  width: 345px;
+}
+.donate-form {
+  width: 663px;
+  height: 1008px;
+  background-color: #f5f5f5;
+  margin-bottom: 90px;
+}
+.button-row {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.donate-type {
+  width: 221px;
+  height: 93px;
+  border: none;
+  background: #f0f0f0;
+  font-size: 16px;
+}
+#active-progress {
+  background-color: #ff8616;
+  color: white;
+}
+.circle {
+  position: relative;
+  left: 25%;
+  margin-bottom: 4px;
+}
+#circle-2 {
+  position: relative;
+  left: 8px;
+}
+.inactive-progress {
+  /* width: 50px;
+  height: 50px;
+  background-color: #d9d9d9;
+  border-radius: 100px; */
+}
+.donate-progress {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  column-gap: 90px;
+  margin-top: 30px;
+  margin-bottom: 46px;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: #d9d9d9;
+  border-radius: 100px;
+}
+.circle-content {
+  position: relative;
+  left: 20px;
+  top: 16px;
+}
+.step {
+  display: grid;
+  justify-content: center;
+}
+.donation-amount {
+  margin-left: 60px;
+}
+.amount-button {
+  width: 110px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+}
+#one-time {
+  background-color: #00357b;
+  color: white;
+}
+.select-amount {
+  font-size: 16px;
+}
+#first-amount {
+  background-color: #00357b;
+  color: white;
+}
+.amount-options {
+  margin-top: 16px;
+  margin-bottom: 42px;
+  max-width: 512px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 24px;
+}
+.input-field {
+  width: 521px;
+  height: 48px;
+  margin-bottom: 32px;
+}
+.next-button {
+  width: 190px;
+  height: 56px;
+  border: none;
+  border-radius: 100px;
+  background-color: #00357b;
+  color: white;
+  font-size: 16px;
+  margin-left: 225px;
+  margin-top: 10px;
+}

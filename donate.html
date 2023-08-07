@@ -14,26 +14,184 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="nav"></div>
+    <div class="donate-hero">
+      <img class="donate-hero-image" src="./assets/images/donate-banner.jpg" />
+      <div style="position: absolute; top: 285px; left: 80px">
+        <h1>Donate</h1>
+        <p>You can make a difference.</p>
+      </div>
+    </div>
     <div class="donate-container">
-        <div class="donate-hero">
-          <img
-            class="donate-hero-image"
-            src="./assets/images/donate-banner.jpg"
-          />
-          <div style="position: absolute; top: 285px; left: 80px">
-            <h1>Donate</h1>
-            <p>You can make a difference.</p>
+      <div class="data">
+        <div class="animals-adopted">
+          <div class="data-number">
+            425
+            <img
+              src="./assets/images/illustration-animals-adopted.svg"
+              alt=""
+            />
+          </div>
+          <div class="data-description">Animals Adopted</div>
+        </div>
+        <div class="animals-reunited">
+          <div class="data-number">
+            256
+            <img
+              src="./assets/images/illustration-animals-reunited.svg"
+              alt=""
+            />
+          </div>
+          <div class="data-description">Animals Reunited</div>
+        </div>
+        <div class="animals-rescued">
+          <div class="data-number">
+            66
+            <img
+              src="./assets/images/illustration-animals-rescued.svg"
+              alt=""
+            />
+          </div>
+          <div class="data-description">Animals Rescued</div>
+        </div>
+      </div>
+      <div class="donate-main">
+        <div>
+          <h1 class="header">Your Contribution</h1>
+          <p class="content">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="contribution-main">
+          <div class="card">
+            <img
+              class="contribution-profile"
+              src="./assets/images/medical-care.jpg"
+              alt="Dog dog-profile-1"
+              width="345px"
+            />
+            <div class="container">
+              <h4 class="title">Medical Care</h4>
+              <div>
+                Lorem ipsum dolor sit amet consectetur. Ut nunc erat enim
+                pretium cursus a tellus. Est at auctor mauris dolor volutpat. Mi
+                commodo donec fermentum gravida donec sit dui morbi. Fermentum
+                sit amet netus dui viverra volutpat porttitor. Odio nisl arcu
+                imperdiet ut.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="contribution-profile"
+              src="./assets/images/food-shelter.png"
+              alt="Dog dog-profile-1"
+              width="345px"
+            />
+            <div class="container">
+              <h4 class="title">Food and Shelter</h4>
+              <div>
+                Lorem ipsum dolor sit amet consectetur. Ut nunc erat enim
+                pretium cursus a tellus. Est at auctor mauris dolor volutpat. Mi
+                commodo donec fermentum gravida donec sit dui morbi. Fermentum
+                sit amet netus dui viverra volutpat porttitor. Odio nisl arcu
+                imperdiet ut.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="contribution-profile"
+              src="./assets/images/enrichment-toys.jpg"
+              alt="Dog dog-profile-1"
+              width="345px"
+            />
+            <div class="container">
+              <h4 class="title">Enrichment Toys</h4>
+              <div>
+                Lorem ipsum dolor sit amet consectetur. Ut nunc erat enim
+                pretium cursus a tellus. Est at auctor mauris dolor volutpat. Mi
+                commodo donec fermentum gravida donec sit dui morbi. Fermentum
+                sit amet netus dui viverra volutpat porttitor. Odio nisl arcu
+                imperdiet ut.
+              </div>
+            </div>
           </div>
         </div>
-    <div class="data">
-        <div class="animals-adopted-data">
-        <div>425</div>
-        <div>Animals Adopted</div>
-        <img src="./assets/images/illustration-animals-adopted.svg" alt="">
-</div>
+      </div>
+      <div class="give-main">
+        <div>
+          <h1 class="header">Ways to Give</h1>
+          <p class="content">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <section class="donate-form">
+          <div class="button-row">
+            <button id="one-time" class="donate-type">One-time</button>
+            <button class="donate-type">Monthly</button>
+            <button class="donate-type">Amazon Wishlist</button>
+          </div>
+          <div class="donate-progress">
+            <div class="step">
+              <div id="active-progress" class="circle">
+                <div class="circle-content">1</div>
+              </div>
+              <div id="contact-info">Contact Info</div>
+            </div>
+            <div class="step">
+              <div id="circle-2" class="inactive-progress circle">
+                <div class="circle-content">2</div>
+              </div>
+              <div>Payment</div>
+            </div>
+            <div class="step">
+              <div class="inactive-progress circle">
+                <div class="circle-content">3</div>
+              </div>
+              <div>Confirmation</div>
+            </div>
+          </div>
+          <div class="donation-amount">
+            <div class="select-amount">Select Donation Amount:</div>
+            <div class="amount-options">
+              <button id="first-amount" class="amount-button">$25</button>
+              <button class="amount-button">$50</button>
+              <button class="amount-button">$100</button>
+              <button class="amount-button">Other</button>
+            </div>
+            <div class="form-field">
+              <div>
+                <label class="label-field" for="first-name">First Name</label>
+                <input class="input-field" type="text" id="first-name" />
+              </div>
+              <div>
+                <label class="label-field" for="last-name">Last Name</label>
+                <input class="input-field" type="text" id="last-name" />
+              </div>
+              <div>
+                <label class="label-field" for="email-address"
+                  >Email Address</label
+                >
+                <input class="input-field" type="text" id="email-adress" />
+              </div>
+              <div>
+                <label class="label-field" for="phone-number"
+                  >Phone Number</label
+                >
+                <input class="input-field" type="text" id="phone-number" />
+              </div>
+            </div>
+          </div>
+          <button class="next-button">Next</button>
+        </section>
+      </div>
     </div>
     <div id="footer"></div>
     <script src="./assets/javascripts/header.js"></script>
