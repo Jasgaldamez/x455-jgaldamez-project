@@ -1,0 +1,73 @@
+.volunteer-hero-image {
+  height: 632px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 40px;
+}
+.volunteer-intro {
+  display: flex;
+  justify-content: center;
+  column-gap: 200px;
+}
+.volunteer-description {
+  max-width: 540px;
+}
+.requirement-card {
+  width: 486px;
+  height: 312px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+.requirement-header {
+  position: relative;
+  left: 162px;
+  margin-top: 32px;
+}
+.requirement-content {
+  position: relative;
+  left: 72px;
+  margin-bottom: 16px;
+}
+.header {
+  margin-bottom: 0;
+  font-size: 36px;
+  font-weight: 600;
+}
+.content {
+  margin-top: 4px;
+  margin-bottom: 36px;
+}
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 24px;
+  margin-bottom: 4px;
+}
+.volunteer-programs {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 96px;
+}
+.volunteer-profile {
+  border-radius: 10px;
+}
+.volunteer-container {
+  display: grid;
+  justify-content: center;
+  row-gap: 50px;
+}
+.volunteer-main {
+  /* padding-left: 76px; */
+  max-width: 1223px;
+}
+.volunteer-form {
+  width: 663px;
+  height: 900px;
+  max-height: 900px;
+  overflow-y: auto;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  margin-bottom: 195px;
+}
