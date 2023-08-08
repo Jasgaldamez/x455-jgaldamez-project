@@ -42,7 +42,6 @@
 }
 .carousel-container {
   max-width: 637px;
-  margin-left: 100px;
 }
 .carousel-indicators img {
   opacity: 0.75;
@@ -57,11 +56,14 @@
 .profile-text {
   margin-left: 76px;
   margin-right: 56px;
-  margin-top: 64px;
   max-width: 469px;
 }
 .profile-text > h1 {
   margin-top: 0;
+}
+.slides-actions-adopt {
+  display: flex;
+  justify-content: center;
 }
 .adopt-button {
   width: 206px;
@@ -71,7 +73,6 @@
   background-color: #00357b;
   font-size: 16px;
   color: white;
-  margin-left: 217px;
 }
 h1 {
   font-weight: 700;
@@ -85,6 +86,7 @@ h2 {
 .animal-profile {
   display: flex;
   justify-content: center;
+  margin-top: 64px;
 }
 .story {
   margin-bottom: 92px;
