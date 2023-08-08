@@ -1,9 +1,7 @@
-.profile-container {
+.carousel-container {
   display: grid;
-  grid-template-columns: auto auto;
-  align-items: start;
-  justify-content: center;
-  padding: 64px 200px 56px 83px;
+  row-gap: 50px;
+  margin-bottom: 30px;
 }
 .main-profile-image {
   width: 637px;
@@ -13,30 +11,53 @@
   object-position: top;
   border-radius: 10px;
 }
-.profile-text {
-  padding-left: 120px;
-}
-.profile-text > h1 {
-  margin-top: 0;
-}
-.slides-actions {
-  display: flex;
-  margin-top: 36px;
-  width: 100%;
-  justify-content: space-evenly;
-}
-.slides-spy {
-  display: flex;
-}
-.slides:not(:first-child) {
-  margin-left: 52px;
-}
-.slides-image {
-  width: 177px;
-  height: 160px;
+.carousel-inner {
+  width: 637px;
+  height: 528px;
+  /* padding-top: 64px; */
   object-fit: cover;
   object-position: top;
   border-radius: 10px;
+}
+.carousel-indicators img {
+  width: 177px;
+  border-radius: 10px;
+  height: 160px;
+  object-fit: cover;
+  object-position: top;
+}
+.carousel-indicators {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  /* override boostrap css */
+  left: 0;
+  width: 100%;
+  margin-left: 0;
+  z-index: 0;
+}
+.carousel-indicators .active {
+  width: 177px;
+}
+.carousel-container {
+  max-width: 637px;
+  margin-left: 100px;
+}
+.carousel-indicators .active img {
+  opacity: 1;
+}
+.carousel-indicators :hover img {
+  opacity: 0.75;
+}
+
+.profile-text {
+  margin-left: 76px;
+  margin-right: 56px;
+  margin-top: 64px;
+  max-width: 469px;
+}
+.profile-text > h1 {
+  margin-top: 0;
 }
 .adopt-button {
   width: 206px;
@@ -44,7 +65,7 @@
   border: none;
   border-radius: 100px;
   background-color: #00357b;
-  font-size: 24px;
+  font-size: 16px;
   color: white;
   margin-left: 217px;
 }
@@ -56,4 +77,11 @@ h2 {
 }
 .name {
   margin-bottom: 8px;
+}
+.animal-profile {
+  display: flex;
+  justify-content: center;
+}
+.story {
+  margin-bottom: 92px;
 }
