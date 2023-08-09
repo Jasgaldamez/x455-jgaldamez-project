@@ -41,7 +41,7 @@
           aliquet. Dignissim congue donec faucibus sed integer diam scelerisque.
           Tellus id enim interdum facilisi malesuada pellentesque. Euismod netus
           ullamcorper egestas pulvinar. Faucibus bibendum sed viverra eget dolor
-          sit cras.<br />
+          sit cras.<br>
           Lorem ipsum dolor sit amet consectetur. Velit adipiscing augue
           tristique malesuada mus gravida bibendum id sed. Sapien ac lorem sit
           aliquet. Dignissim congue donec faucibus sed integer diam scelerisque.
@@ -54,11 +54,11 @@
             <h1 class="requirement-header">Requirements</h1>
         <div class="requirement-content">
             <ul>
-                <li>Lorem ipsum dolor sit amet consectetur.</li>
-                <li>Lorem ipsum dolor sit amet consectetur.</li>
-                <li>Lorem ipsum dolor sit amet consectetur.</li>
-                <li>Lorem ipsum dolor sit amet consectetur.</li>
-                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li><br>
+                <li>Lorem ipsum dolor sit amet consectetur.</li><br>
+                <li>Lorem ipsum dolor sit amet consectetur.</li><br>
+                <li>Lorem ipsum dolor sit amet consectetur.</li><br>
+                <li>Lorem ipsum dolor sit amet consectetur.</li><br>
             </ul>
         </div>
           </div>
@@ -80,13 +80,18 @@
               />
               <div class="container">
                 <h4 class="title">Foster</h4>
-                <div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Ut nunc erat enim
+                  pretium cursus a tellus. Est at auctor mauris dolor volutpat mi commodo.
+                </p>
+                <p class="panel">
                   Lorem ipsum dolor sit amet consectetur. Ut nunc erat enim
                   pretium cursus a tellus. Est at auctor mauris dolor volutpat.
                   Mi commodo donec fermentum gravida donec sit dui morbi.
                   Fermentum sit amet netus dui viverra volutpat porttitor. Odio
                   nisl arcu imperdiet ut.
-                </div>
+                </p>
+                <div class="accordion" style="text-align: right;">More</div>
               </div>
             </div>
             <div class="card">
@@ -98,13 +103,18 @@
               />
               <div class="container">
                 <h4 class="title">Pet Pals</h4>
-                <div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Ut nunc erat enim
+                  pretium cursus a tellus. Est at auctor mauris dolor volutpat mi commodo.
+                </p>
+                <p class="panel">
                   Lorem ipsum dolor sit amet consectetur. Ut nunc erat enim
                   pretium cursus a tellus. Est at auctor mauris dolor volutpat.
                   Mi commodo donec fermentum gravida donec sit dui morbi.
                   Fermentum sit amet netus dui viverra volutpat porttitor. Odio
                   nisl arcu imperdiet ut.
-                </div>
+                </p>
+                <div class="accordion" style="text-align: right;">More</div>
               </div>
             </div>
             <div class="card">
@@ -116,13 +126,18 @@
               />
               <div class="container">
                 <h4 class="title">Dog Walking</h4>
-                <div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Ut nunc erat enim
+                  pretium cursus a tellus. Est at auctor mauris dolor volutpat mi commodo.
+                </p>
+                <p class="panel">
                   Lorem ipsum dolor sit amet consectetur. Ut nunc erat enim
                   pretium cursus a tellus. Est at auctor mauris dolor volutpat.
                   Mi commodo donec fermentum gravida donec sit dui morbi.
                   Fermentum sit amet netus dui viverra volutpat porttitor. Odio
                   nisl arcu imperdiet ut.
-                </div>
+                </p>
+                <div class="accordion" style="text-align: right;">More</div>
               </div>
             </div>
           </div>
@@ -216,4 +231,21 @@
     <script src="./assets/javascripts/header.js"></script>
     <script src="./assets/javascripts/footer.js"></script>
   </body>
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.previousElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+          this.innerHTML = "More";
+        } else {
+          panel.style.display = "block";
+          this.innerHTML = "Less";
+        }
+      });
+    }
+  </script>
 </html>
