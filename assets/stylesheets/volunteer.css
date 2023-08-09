@@ -100,15 +100,30 @@
   margin-bottom: 30px;
 }
 .input-field,
-label-field {
+.label-field {
   display: flex;
   flex-direction: column;
+}
+.short-label-field .short-input-field {
+  display: flex;
+  flex-direction: column;
+}
+.short-input-field {
+  width: 150px;
+  height: 48px;
+}
+.code {
+  display: flex;
+  column-gap: 28px;
+  max-width: 529px;
+  margin-bottom: 36px;
 }
 .program-heading {
   margin-bottom: 10px;
 }
 .program-title {
   margin-bottom: 0;
+  font-weight: 500;
 }
 .box {
   margin-bottom: 36px;
