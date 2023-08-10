@@ -15,16 +15,20 @@
   width: 637px;
   height: 528px;
   /* padding-top: 64px; */
+  border-radius: 10px;
+}
+.carousel-inner > .item > img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: top;
-  border-radius: 10px;
 }
 .carousel-indicators img {
   width: 177px;
   border-radius: 10px;
   height: 160px;
   object-fit: cover;
-  object-position: top;
+  object-position: center;
 }
 .carousel-indicators {
   position: relative;

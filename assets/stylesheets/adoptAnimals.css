@@ -76,7 +76,7 @@
   width: 314px;
   height: 248px;
   object-fit: cover;
-  object-position: top;
+  object-position: center;
   border-radius: 10px;
 }
 .container {
