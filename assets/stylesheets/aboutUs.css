@@ -1,0 +1,14 @@
+.about-us-hero-image {
+  height: 632px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 40px;
+}
+.content {
+  max-width: 649px;
+}
+.who-we-are {
+  display: flex;
+}
