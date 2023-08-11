@@ -11,6 +11,18 @@
   margin-left: 56px;
   margin-right: 56px;
 }
+.header {
+  margin-bottom: 0;
+}
+.content {
+  margin-top: 4px;
+}
+.process {
+  margin-bottom: 56px;
+}
+.fees {
+  margin-bottom: 56px;
+}
 .adoptable-animals-button {
   width: 427px;
   height: 56px;
@@ -19,11 +31,19 @@
   border: none;
   border-radius: 10px;
   font-size: 16px;
-  margin-bottom: 36px;
+  margin-bottom: 56px;
   margin-left: 450px;
 }
-.adoption-stories-card {
+.adoption-stories-header {
+  margin-bottom: 36px;
+}
+.adoption-stories-container {
   display: flex;
+  column-gap: 24px;
+  margin-bottom: 56px;
+}
+.story-profile {
+  border-radius: 10px;
 }
 .title {
   margin-top: 4px;
@@ -31,4 +51,29 @@
 }
 .container {
   max-width: 426px;
+}
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.8);
+}
+.lightbox:target {
+  display: block;
+}
+.story-profile:hover {
+  opacity: 0.75;
+}
+.lightbox span {
+  display: block;
+  width: 878px;
+  height: 656px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
