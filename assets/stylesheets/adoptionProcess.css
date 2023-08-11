@@ -1,0 +1,34 @@
+.adopt-hero-image {
+  height: 632px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 40px;
+}
+.adoption-process {
+  max-width: 1328px;
+  margin-left: 56px;
+  margin-right: 56px;
+}
+.adoptable-animals-button {
+  width: 427px;
+  height: 56px;
+  background-color: #00357b;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-bottom: 36px;
+  margin-left: 450px;
+}
+.adoption-stories-card {
+  display: flex;
+}
+.title {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.container {
+  max-width: 426px;
+}
