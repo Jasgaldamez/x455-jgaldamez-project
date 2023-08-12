@@ -8,7 +8,95 @@
 }
 .content {
   max-width: 649px;
+  margin-top: 8px;
+}
+.about-us {
+  display: flex;
+  margin-right: 56px;
+  margin-left: 56px;
+  margin-top: 54px;
 }
 .who-we-are {
+  margin-right: 138px;
+}
+.header {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.our-mission {
+  margin-top: 46px;
+  margin-left: 56px;
+  margin-right: 56px;
+}
+.content-mission {
+  max-width: 1325px;
+  margin-top: 8px;
+}
+.team-profile {
+  width: 314px;
+  height: 264px;
+  object-fit: cover;
+  object-position: center;
+}
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  /* top: 0; */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+}
+.lightbox:target {
+  display: block;
+}
+.team-profile:hover {
+  opacity: 0.75;
+}
+.lightbox img {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 878px;
+}
+.team-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 80px;
+  justify-content: center;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+.title {
+  margin: 0;
+}
+.team-card {
+  margin-bottom: 36px;
+}
+.our-team {
+  margin-top: 46px;
+  margin-left: 56px;
+  margin-right: 56px;
+}
+.content-team {
+  margin-top: 8px;
+}
+.clip-description {
+  max-width: 540px;
+  margin-bottom: 24px;
+}
+.news-clip {
   display: flex;
+  column-gap: 90px;
+  margin-left: 56px;
+  margin-bottom: 54px;
+  margin-top: 24px;
+}
+.news-spotlight {
+  margin-left: 56px;
 }
