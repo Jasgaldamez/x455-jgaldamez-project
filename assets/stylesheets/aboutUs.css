@@ -6,7 +6,7 @@
   background-size: cover;
 }
 .content {
-  max-width: 649px;
+  max-width: 495px;
   margin-top: 8px;
 }
 .about-us__container {
@@ -15,6 +15,7 @@
 .about-us {
   display: flex;
   margin-top: 54px;
+  justify-content: center;
 }
 .who-we-are {
   margin-right: 138px;
@@ -78,11 +79,14 @@
 }
 .our-team {
   margin-top: 46px;
-  display: grid;
-  justify-content: center;
 }
 .content-team {
   margin-top: 8px;
+  display: grid;
+  justify-content: center;
+}
+.content-team__paragraph {
+  max-width: 1170px;
 }
 .clip-description {
   max-width: 540px;
