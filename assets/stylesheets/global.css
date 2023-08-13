@@ -13,6 +13,9 @@
   font-size: 20px;
   text-decoration: none;
 }
+.topnav a:hover {
+  color: #ff8616;
+}
 .menu {
   display: flex;
   justify-content: space-evenly;
@@ -34,6 +37,7 @@
 }
 .donate-button:hover {
   cursor: pointer;
+  opacity: 0.75;
 }
 body {
   font-family: "Inter";
@@ -53,6 +57,10 @@ body {
 .bottom-nav {
   display: grid;
   height: 96px;
+}
+.bottom-nav a {
+  color: white;
+  text-decoration: none;
 }
 .company-content {
   margin-bottom: 12px;
@@ -81,6 +89,10 @@ body {
   font-size: 16px;
   border: none;
   margin-left: 36px;
+}
+.sign-up-button:hover {
+  opacity: 0.75;
+  cursor: pointer;
 }
 .newsletter {
   display: flex;

@@ -1,13 +1,15 @@
 document.getElementById("footer").innerHTML = `<div class="footer">
   <div class="bottom-nav">
-    <a>Adopt</a>
-    <a>About Us</a>
-    <a>Get Involved</a>
+    <a  href="./adoptAnimals.html">Adopt</a>
+    <a href="./adoptionProcess.html">Adoption Process</a>
+    <a href="./aboutUs.html">About Us</a>
+    <a href="./volunteer.html">Get Involved</a>
   </div>
   <div class="company">
     <div class="company-content">
       <div class="company-labels">Hours of Operation</div>
-      <div>Open daily by appointment</div>
+      <div>Monday-Sunday</div>
+      <div>12pm-5pm</div>
     </div>
     <div class="company-content">
       <div class="company-labels">Contact Us</div>
@@ -15,7 +17,8 @@ document.getElementById("footer").innerHTML = `<div class="footer">
     </div>
     <div class="company-content">
       <div class="company-labels">Address</div>
-      <div>2579 Fair St Chico, CA 95928</div>
+      <div>2579 Fair St.</div>
+      <div>Chico, CA 95928</div>
     </div>
   </div>
   <div class="newsletter">

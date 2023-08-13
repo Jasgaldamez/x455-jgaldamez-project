@@ -12,8 +12,9 @@ document.getElementById("nav").innerHTML = `
         </a>
         <div class="menu">
             <a href="./adoptAnimals.html">Adopt</a>
-            <a href="#about-us">About Us</a>
-            <a href="#get-involved">Get Involved</a>
+            <a href="./adoptionProcess.html">Adoption Process</a>
+            <a href="./aboutUs.html">About Us</a>
+            <a href="./volunteer.html">Get Involved</a>
             <button onclick="location.href='./donate.html';" class="donate-button">Donate</button>
         </div>
     </header>

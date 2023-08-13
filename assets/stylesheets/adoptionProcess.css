@@ -34,6 +34,10 @@
   margin-bottom: 56px;
   margin-left: 450px;
 }
+.adoptable-animals-button:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
 .adoption-stories-header {
   margin-bottom: 36px;
 }

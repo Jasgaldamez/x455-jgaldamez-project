@@ -16,6 +16,10 @@
   margin-top: 20px;
   font-size: 20px;
 }
+.banner-button:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
 .banner-header {
   font-size: 36px;
   font-weight: 700;
