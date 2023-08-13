@@ -78,6 +78,8 @@
 }
 .our-team {
   margin-top: 46px;
+  display: grid;
+  justify-content: center;
 }
 .content-team {
   margin-top: 8px;
