@@ -120,3 +120,48 @@
   padding: 8px 16px;
   text-decoration: none;
 }
+.header-color {
+  text-align: left;
+  color: white;
+  background-color: #00357b;
+}
+.image-size {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+th,
+td {
+  padding: 15px;
+}
+tr:not(.header-color) {
+  box-shadow: 0 2px 2px -2px black;
+}
+th {
+  font-size: 16px;
+  font-weight: lighter;
+}
+td {
+  font-size: 14px;
+}
+caption {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 15px;
+}
+table {
+  border-collapse: collapse;
+}
+tr:hover:not(.header-color) {
+  background-color: #efefef;
+  cursor: pointer;
+}
+#my-table {
+  width: 900px;
+  margin: auto;
+  margin-bottom: 90px;
+}
+.header-color:hover {
+  cursor: pointer;
+}
