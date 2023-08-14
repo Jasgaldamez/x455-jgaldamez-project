@@ -5,6 +5,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.hero-header {
+  font-size: 46px;
+  color: white;
+}
 .content {
   max-width: 495px;
   margin-top: 8px;

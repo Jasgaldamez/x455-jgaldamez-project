@@ -9,20 +9,23 @@
 .banner-button {
   background-color: #00357b;
   color: white;
+  border: solid 2px #00357b;
   width: 256px;
   height: 72px;
   border-radius: 100px;
-  border: none;
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 16px;
 }
 .banner-button:hover {
-  opacity: 0.75;
+  background-color: white;
+  border: solid 2px #00357b;
+  color: black;
   cursor: pointer;
 }
 .banner-header {
-  font-size: 36px;
+  font-size: 46px;
   font-weight: 700;
+  margin-bottom: 8px;
 }
 .banner-subheader {
   font-size: 20px;

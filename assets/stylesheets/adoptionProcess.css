@@ -6,6 +6,10 @@
   background-size: cover;
   padding-bottom: 40px;
 }
+.hero-header {
+  font-size: 46px;
+  color: white;
+}
 .adoption-process {
   max-width: 1328px;
   margin-left: 56px;

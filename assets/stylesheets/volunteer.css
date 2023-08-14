@@ -6,6 +6,9 @@
   background-size: cover;
   padding-bottom: 40px;
 }
+.hero-header {
+  font-size: 46px;
+}
 .volunteer-intro {
   display: flex;
   justify-content: center;
