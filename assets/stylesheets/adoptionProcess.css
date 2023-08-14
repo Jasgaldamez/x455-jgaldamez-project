@@ -1,19 +1,23 @@
 .adopt-hero-image {
   height: 632px;
   width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  object-fit: cover;
   padding-bottom: 40px;
 }
 .hero-header {
   font-size: 46px;
   color: white;
 }
+
+@media only screen and (max-width: 1200px) {
+  .hero-header {
+    font-size: 36px;
+  }
+}
+
 .adoption-process {
   max-width: 1328px;
-  margin-left: 56px;
-  margin-right: 56px;
+  padding: 0 56px 0 56px;
 }
 .header {
   margin-bottom: 8px;
@@ -36,8 +40,19 @@
   border-radius: 10px;
   font-size: 16px;
   margin-bottom: 56px;
-  margin-left: 450px;
+  position: relative;
+  left: 450px;
 }
+
+@media only screen and (max-width: 1200px) {
+  .adoptable-animals-button {
+    left: 0px;
+  }
+  .adoption-process {
+    padding: 0px 35px;
+  }
+}
+
 .adoptable-animals-button:hover {
   opacity: 0.75;
   cursor: pointer;
@@ -46,8 +61,10 @@
   margin-bottom: 36px;
 }
 .adoption-stories-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   column-gap: 48px;
+  row-gap: 56px;
   margin-bottom: 56px;
 }
 .story-profile {
