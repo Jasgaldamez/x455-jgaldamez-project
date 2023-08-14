@@ -1,22 +1,25 @@
 .volunteer-hero-image {
   height: 632px;
   width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  object-fit: cover;
   padding-bottom: 40px;
 }
 .hero-header {
   font-size: 46px;
 }
-.volunteer-intro {
-  display: flex;
+.volunteer-content__container {
+  display: grid;
   justify-content: center;
-  column-gap: 200px;
-  margin-bottom: 40px;
+  padding: 56px;
 }
-.volunteer-description {
-  max-width: 540px;
+.volunteer-content {
+  max-width: 1110px;
+}
+.volunteer-intro {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  column-gap: 56px;
+  margin-bottom: 40px;
 }
 .requirement-card {
   width: 486px;
@@ -53,16 +56,11 @@
 }
 .volunteer-programs {
   display: grid;
-  grid-template-columns: auto auto auto;
-  column-gap: 96px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  column-gap: 20px;
 }
 .volunteer-profile {
   border-radius: 10px;
-}
-.volunteer-container {
-  display: grid;
-  justify-content: center;
-  row-gap: 40px;
 }
 .accordion {
   color: #00a2ff;
@@ -78,24 +76,26 @@
   display: none;
   overflow: hidden;
 }
+.sign-up-main {
+  max-width: 663px;
+}
 .volunteer-main {
-  /* padding-left: 76px; */
   max-width: 1223px;
 }
-.text-area {
-  width: 663px;
+.volunteer-form {
   height: 800px;
   max-height: 800px;
-  max-width: 663px;
   overflow: auto;
   background-color: #f5f5f5;
-  margin-bottom: 90px;
-  margin-top: 45px;
-  padding-left: 71px;
   border: solid 1px lightgrey;
 }
+.form-field {
+  display: grid;
+  justify-content: center;
+  padding-left: 15%;
+}
 .input-field {
-  width: 521px;
+  width: 80%;
   height: 48px;
   margin-bottom: 32px;
 }
@@ -103,6 +103,7 @@
   font-size: 28px;
   margin-top: 52px;
   margin-bottom: 30px;
+  padding-left: 15%;
 }
 .input-field,
 .label-field {
@@ -114,13 +115,13 @@
   flex-direction: column;
 }
 .short-input-field {
-  width: 150px;
+  width: 90%;
   height: 48px;
 }
 .code {
   display: flex;
   column-gap: 28px;
-  max-width: 529px;
+  width: 80%;
   margin-bottom: 36px;
 }
 .program-heading {
@@ -139,7 +140,7 @@
   max-width: 521px;
 } */
 .open-field {
-  width: 521px;
+  width: 80%;
   height: 100px;
   margin-bottom: 32px;
 }
