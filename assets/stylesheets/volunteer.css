@@ -4,6 +4,18 @@
   object-fit: cover;
   padding-bottom: 40px;
 }
+.hero-header__container {
+  position: absolute;
+  top: 285px;
+  left: 80px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero-header__container {
+    top: 185px;
+  }
+}
+
 .hero-header {
   font-size: 46px;
 }
