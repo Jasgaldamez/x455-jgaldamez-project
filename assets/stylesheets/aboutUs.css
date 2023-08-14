@@ -4,9 +4,13 @@
   object-fit: cover;
   object-position: top;
 }
+.hero-header__container {
+  position: absolute;
+  top: 285px;
+  left: 80px;
+}
 .hero-header {
   font-size: 46px;
-  color: white;
 }
 .content {
   max-width: 495px;
