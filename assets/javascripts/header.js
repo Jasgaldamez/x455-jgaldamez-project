@@ -2,7 +2,7 @@ document.getElementById("nav").innerHTML = `
     <header class="topnav">
         <a 
             class="home" 
-            href="./home.html"
+            href="./"
         >
             <img
                 src="./assets/images/logo.png"
