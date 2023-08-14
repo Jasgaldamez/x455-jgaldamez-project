@@ -58,8 +58,6 @@
 }
 
 .profile-text {
-  margin-left: 76px;
-  margin-right: 56px;
   max-width: 469px;
 }
 .profile-text > h1 {
@@ -91,10 +89,16 @@ h2 {
 .name {
   margin-bottom: 8px;
 }
-.animal-profile {
-  display: flex;
+.animal-profile-container {
+  display: grid;
   justify-content: center;
-  margin-top: 64px;
+}
+.animal-profile {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+  justify-items: center;
+  margin: 64px 0 64px 0;
 }
 .story {
   margin-bottom: 68px;
