@@ -1,9 +1,7 @@
 .donate-hero-image {
   height: 632px;
   width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  object-fit: cover;
   padding-bottom: 40px;
 }
 .hero-header {
@@ -11,8 +9,28 @@
   /* color: white; */
 }
 .data {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  row-gap: 20px;
+}
+.donate-container_content {
+  width: 1200px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .donate-container_content {
+    width: auto;
+  }
+}
+
+.animals-adopted {
+  max-width: 286px;
+}
+.animals-reunited {
+  max-width: 290px;
+}
+.animals-rescued {
+  max-width: 288px;
 }
 .data-number {
   font-size: 64px;
@@ -42,19 +60,14 @@
 }
 .contribution-main {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  row-gap: 20px;
   column-gap: 96px;
 }
 .contribution-profile {
   border-radius: 10px;
 }
-.donate-container {
-  display: grid;
-  justify-content: center;
-  row-gap: 50px;
-}
 .donate-main {
-  /* padding-left: 76px; */
   max-width: 1223px;
 }
 .container {
@@ -64,7 +77,7 @@
   max-width: 663px;
 }
 .donate-form {
-  width: 663px;
+  max-width: 663px;
   height: 1008px;
   background-color: #f5f5f5;
   margin-bottom: 90px;
@@ -171,4 +184,8 @@
 .next-button:hover {
   opacity: 0.75;
   cursor: pointer;
+}
+.donate-container {
+  display: grid;
+  justify-content: center;
 }
