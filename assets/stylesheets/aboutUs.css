@@ -1,9 +1,8 @@
 .about-us-hero-image {
   height: 632px;
   width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  object-fit: cover;
+  object-position: top;
 }
 .hero-header {
   font-size: 46px;
@@ -15,11 +14,13 @@
 }
 .about-us__container {
   padding: 56px;
+  display: grid;
+  justify-content: center;
 }
 .about-us {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   margin-top: 54px;
-  justify-content: center;
 }
 .who-we-are {
   margin-right: 138px;
@@ -69,7 +70,7 @@
 }
 .team-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   column-gap: 80px;
   justify-content: center;
   margin-top: 36px;
@@ -98,11 +99,16 @@
 }
 .news-clip__container {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   justify-content: center;
 }
-.news-clip {
-  display: flex;
-  column-gap: 90px;
-  margin-bottom: 54px;
-  margin-top: 24px;
+.my-frame {
+  width: 540px;
+  height: 320px;
+}
+@media only screen and (max-width: 992px) {
+  .my-frame {
+    width: 400px;
+    height: 250px;
+  }
 }
